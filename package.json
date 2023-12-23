@@ -1,0 +1,21 @@
+{
+  "name": "solarized-osaka",
+  "displayName": "Solarized Osaka",
+  "description": "A clean solarized-inspired theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Osaka",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized Osaka-color-theme.json"
+      }
+    ]
+  }
+}
