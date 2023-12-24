@@ -2,7 +2,7 @@
   "name": "solarized-osaka",
   "displayName": "Solarized Osaka",
   "description": "A clean solarized-inspired theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },
