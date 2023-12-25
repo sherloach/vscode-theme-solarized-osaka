@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/sherloach/vscode-theme-solarized-osaka"
   },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
