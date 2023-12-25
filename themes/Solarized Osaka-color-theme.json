@@ -23,7 +23,12 @@
     },
     "property.defaultLibrary": {
       "foreground": "#268BD2"
-    }
+    },
+    "namespace": "#268BD2",
+    "property": "#268BD5",
+    "interface": "#268BD5",
+    "type": "#268BD5",
+    "class": "#B58900"
   },
   "tokenColors": [
     {
@@ -164,7 +169,15 @@
       }
     },
     {
-      "scope": ["entity.name.type", "meta.type", "support.type"],
+      "name": "Class types",
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "#268BD2"
+      }
+    },
+    {
+      "name": "Other types",
+      "scope": ["meta.type", "support.type", "support.class"],
       "settings": {
         "foreground": "#B58900"
       }
@@ -300,7 +313,6 @@
     {
       "name": "Class, Support, DOM, etc",
       "scope": [
-        "support.class",
         "variable.other.readwrite.alias",
         "support.orther.namespace.use.php",
         "meta.use.php",
@@ -326,7 +338,8 @@
         "storage.type.union",
         "storage.type.trait",
         "storage.type.interface",
-        "storage.type.impl"
+        "storage.type.impl",
+        "storage.type.type"
       ],
       "settings": {
         "foreground": "#859900"

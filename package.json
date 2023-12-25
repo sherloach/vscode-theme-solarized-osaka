@@ -1,8 +1,14 @@
 {
+  "publisher": "sherloach",
   "name": "solarized-osaka",
   "displayName": "Solarized Osaka",
   "description": "A clean solarized-inspired theme",
-  "version": "0.0.7",
+  "license": "MIT",
+  "version": "0.0.13",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sherloach/vscode-theme-solarized-osaka"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
