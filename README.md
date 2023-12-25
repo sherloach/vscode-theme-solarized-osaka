@@ -5,5 +5,5 @@
 ### TODO
 
 - env highlight
-- change color of all yellow brackets
-- interface ts
+- interface, type are should be blue (currently yellow)
+- json key value is not right

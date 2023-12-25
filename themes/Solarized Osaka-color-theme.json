@@ -93,6 +93,13 @@
       }
     },
     {
+      "name": "Keyword others (env,...)",
+      "scope": "keyword.other",
+      "settings": {
+        "foreground": "#2AA198"
+      }
+    },
+    {
       "name": "Spread",
       "scope": ["keyword.operator.spread", "keyword.operator.rest"],
       "settings": {
@@ -162,6 +169,19 @@
         "foreground": "#B58900"
       }
     },
+    // {
+    //   "scope": ["meta.type.declaration", "meta.class", "storage.type.type"],
+    //   "settings": {
+    //     "foreground": "#859900"
+    //   }
+    // },
+    {
+      "name": "Object Variable",
+      "scope": "variable.other.object",
+      "settings": {
+        "foreground": "#2AA198"
+      }
+    },
     {
       "name": "Variables",
       "scope": [
@@ -170,13 +190,6 @@
         "string constant.other.placeholder",
         "variable.parameter.handlebars"
       ],
-      "settings": {
-        "foreground": "#9EACAD"
-      }
-    },
-    {
-      "name": "Object Variable",
-      "scope": "variable.other.object",
       "settings": {
         "foreground": "#9EACAD"
       }
@@ -301,14 +314,22 @@
         "meta.import.qualifier"
       ],
       "settings": {
-        "foreground": "#CB4B16"
+        "foreground": "#268BD2"
       }
     },
     {
-      "name": "Class Name",
-      "scope": "entity.name",
+      "name": "keywords class, struct, impl and typedef",
+      "scope": [
+        "storage.type.class",
+        "storage.type.struct",
+        "storage.type.enum",
+        "storage.type.union",
+        "storage.type.trait",
+        "storage.type.interface",
+        "storage.type.impl"
+      ],
       "settings": {
-        "foreground": "#B58900"
+        "foreground": "#859900"
       }
     },
     {
@@ -798,6 +819,26 @@
       "settings": {
         "foreground": "#DC322F"
       }
+    },
+    {
+      "name": "ENV value",
+      "scope": "source.env",
+      "settings": {
+        "foreground": "#268BD2"
+      }
+    },
+    {
+      "name": "Interpolation, PHP tags, Smarty tags",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded",
+        "meta.embedded.line.tag.smarty",
+        "support.constant.handlebars",
+        "punctuation.section.tag.twig"
+      ],
+      "settings": {
+        "foreground": "#268BD2"
+      }
     }
   ],
   "colors": {
@@ -1056,6 +1097,19 @@
     "breadcrumb.activeSelectionForeground": "#eee8d5",
     "editorGutter.commentRangeForeground": "#657b83",
     "debugExceptionWidget.background": "#073642",
-    "debugExceptionWidget.border": "#002b36"
+    "debugExceptionWidget.border": "#002b36",
+    "editorBracketHighlight.foreground1": "#49AEF5",
+    "editorBracketHighlight.foreground2": "#2AA198",
+    "editorBracketHighlight.foreground3": "#268BD2",
+    "editorBracketHighlight.foreground4": "#25aac2",
+    "editorBracketHighlight.foreground5": "#859900",
+    "editorBracketHighlight.foreground6": "#B58900",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#F6524F",
+    "editorBracketPairGuide.activeBackground1": "#49AEF5",
+    "editorBracketPairGuide.activeBackground2": "#2AA198",
+    "editorBracketPairGuide.activeBackground3": "#268BD2",
+    "editorBracketPairGuide.activeBackground4": "#25aac2",
+    "editorBracketPairGuide.activeBackground5": "#859900",
+    "editorBracketPairGuide.activeBackground6": "#B58900"
   }
 }
