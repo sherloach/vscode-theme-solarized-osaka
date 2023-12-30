@@ -163,7 +163,14 @@
     },
     {
       "name": "Tag Component",
-      "scope": ["entity.name.tag support.class.component", "meta.tag"],
+      "scope": ["entity.name.tag support.class.component"],
+      "settings": {
+        "foreground": "#B58900"
+      }
+    },
+    {
+      "name": "Meta Tag",
+      "scope": ["meta.tag"],
       "settings": {
         "foreground": "#268BD2"
       }
